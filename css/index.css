@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2? family= Texturina:opsz@12..72 & display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Opens sans', sans-serif;
+}
+
+.banner {
+    height: 235px;
+    width: 100%;
+    max-width: 1280px;
+}
+
+.corpo-principal {
+    max-width: 1280px;
+    min-width: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.corpo-principal h1 {
+    margin-top: 68px;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 82px;
+    color: #000000;
+}
+
+.primeiras-imagens {
+    margin-top: 82px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.img-bota-preta {
+    height: 600px;
+    width: 400px;
+    margin-right: 54px;
+}
+
+.img-bota-branca {
+    width: 600px;
+    height: 757.94px
+}
+
+.carrossel {
+    background-color: #C2185B;
+    height: 662px;
+    width: 100%;
+    margin-top: 207.06px;
+}
+
+.carrossel h1 {
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 60px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-bottom: 54px;
+}
+
+.imagens-carrossel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.imagens-carrossel div {
+    height: 388px;
+    width: 260px;
+    background-color: #FFFFFF;
+}
+
+.imagens-carrossel div p {
+    padding-left: 10px;
+}
+
+.texto-sapatos {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.valor {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.segundas-imagens {
+    display: flex;
+    flex-direction: row;
+    margin-top: 163px;
+}
+
+.imagem-menor {
+    height: 939px;
+    width: 550px;
+    margin-right: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.imagem-maior {
+    height: 939px;
+    width: 507px;
+}
+
+.imagem-menor p {
+    font-weight: 600;
+    font-size: 39px;
+    line-height: 53px;
+    color: #000000;
+    text-align: left;
+}
+
+.detalhes {
+    height: 99px;
+    width: 403px;
+    background-color: #C2185B;
+}
+
+.detalhes p {
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 53px;
+    color: #FFFFFF;
+    padding-top: 23px;
+    text-align: center;
+}
+
+.detalhes a {
+    text-decoration: none;
+}
+
+.imagem-menor img {
+    height: 663px;
+    width: 513px;
+}

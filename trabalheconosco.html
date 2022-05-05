@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/global.css">
+    <link rel="stylesheet" href="/css/trabalhe-conosco.css">
+    <title>TRABALHE CONOSCO</title>
+</head>
+
+<body>
+    <header class="header">
+        <div>
+            <img src="./imagens/logotipo.png" alt="" class="logotipo">
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Todos os produtos</a></li>
+                <li><a href="sobre.html">Coleções</a></li>
+                <li><a href="contato.html">Outlet</a>
+            </ul>
+        </nav>
+    </header>
+    <main class="trabalhe-conosco">
+        <div class="formulario-geral">
+            <h1>
+                FAÇA PARTE DO NOSSO TIME!
+            </h1>
+            <form action="/registro" method="POST">
+                <label class="titulo" for="nome">Nome:</label> <br>
+                <input type="text" name="name" id="nome"> <br>
+                <label class="titulo" for="email">Email:</label> <br>
+                <input type="email" name="email" id="email"> <br>
+                <label class="titulo" for="telefone">Telefone:</label> <br>
+                <input type="number" name="telefone" id="telefone"> <br>
+                <label class="titulo">Departamentos</label> <br>
+                <select name="Setor" disable>
+                    <option value="Administrativo"></option>
+                    <option value="Comercial">Comercial</option>
+                    <option value="Tecnologia">Tecnologia</option>
+                    <option value="Logística">Logística</option>
+                    <option value="Produção">Produção</option>
+                </select>
+                <br>
+                <label clas="titulo" for="horario">Disponibilidade:</label>
+                <input type="checkbox" name="horario" value="Integral (8h)">
+                <input type="checkbox" name="horario" value="Meio-Período (4h)">
+                <input class="checkbox" type="checkbox" name="horario" value="Freelancer">
+                <br>
+                <label class="titulo" for="contato">"Qual a melhor forma de entrarmos em contato com você?</label>
+                <input type="radio" name="contato" value="Telefone">
+                <input type="radio" name="contato" value="Email">
+                <input type="radio" name="contato" value="Whatsapp">
+                <br>
+                <label class="titulo" form="mensagem">Mensagem:</label>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10">Conteúdo</textarea>
+                <br>
+                <label class="titulo">Currículo:</label>
+                <input type="file" name="avatar" accpeted="jpg">
+                <br>
+                <button class="botão" type="submit">Enviar</button>
+            </form>
+        </div>
+        <div class="texto">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+                id est laborum.
+            </p>
+        </div>
+    </main>
+</body>
+
+</html>
