@@ -7,76 +7,130 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/global.css">
     <link rel="stylesheet" href="/css/trabalhe-conosco.css">
-    <title>TRABALHE CONOSCO</title>
+    <title>Trabalhe Conosco</title>
 </head>
 
 <body>
     <header class="header">
-        <div>
-            <img src="./imagens/logotipo.png" alt="" class="logotipo">
+        <div class="header-box">
+            <div>
+                <img src="./imagens/logotipo.png" alt="" class="logotipo">
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Todos os produtos</a></li>
+                    <li><a href="sobre.html">Coleções</a></li>
+                    <li><a href="contato.html">Outlet</a>
+                </ul>
+            </nav>
         </div>
-        <nav>
-            <ul class="nav-links">
-                <li><a href="index.html">Todos os produtos</a></li>
-                <li><a href="sobre.html">Coleções</a></li>
-                <li><a href="contato.html">Outlet</a>
-            </ul>
-        </nav>
     </header>
     <main class="trabalhe-conosco">
         <div class="formulario-geral">
             <h1>
-                FAÇA PARTE DO NOSSO TIME!
+                Faça parte do nosso time!
             </h1>
             <form action="/registro" method="POST">
-                <label class="titulo" for="nome">Nome:</label> <br>
-                <input type="text" name="name" id="nome"> <br>
-                <label class="titulo" for="email">Email:</label> <br>
-                <input type="email" name="email" id="email"> <br>
-                <label class="titulo" for="telefone">Telefone:</label> <br>
-                <input type="number" name="telefone" id="telefone"> <br>
-                <label class="titulo">Departamentos</label> <br>
-                <select name="Setor" disable>
-                    <option value="Administrativo"></option>
-                    <option value="Comercial">Comercial</option>
-                    <option value="Tecnologia">Tecnologia</option>
-                    <option value="Logística">Logística</option>
-                    <option value="Produção">Produção</option>
+                <label class="titulo" for="nome">Nome:</label>
+                <br>
+                <input class="campo-preenchimento" type="text" name="name" id="nome">
+                <br>
+                <label class="titulo" for="email">Email:</label>
+                <br>
+                <input class="campo-preenchimento" type="email" name="email" id="email">
+                <br>
+                <label class="titulo" for="telefone">Telefone:</label>
+                <br>
+                <input class="campo-preenchimento" type="number" name="telefone" id="telefone">
+                <br>
+                <label class="titulo" for="departamento">Departamentos:</label>
+                <br>
+                <select class="campo-preenchimento" name="departamento" id="departamento" placeholder="departamento">
+                    <option name="departamento" value="Administrativo"></option>
+                    <option name="departamento" value="Comercial">Comercial</option>
+                    <option name="departamento" value="Tecnologia">Tecnologia</option>
+                    <option name="departamento" value="Logística">Logística</option>
+                    <option name="departamento" value="Produção">Produção</option>
                 </select>
+                <br><br>
+                <label class="titulo">Disponibilidade:</label>
                 <br>
-                <label clas="titulo" for="horario">Disponibilidade:</label>
-                <input type="checkbox" name="horario" value="Integral (8h)">
-                <input type="checkbox" name="horario" value="Meio-Período (4h)">
-                <input class="checkbox" type="checkbox" name="horario" value="Freelancer">
+                <input class="checkbox" type="checkbox" id="Integral (8h)">
+                <label class="titulo" for="Integral (8h)">Integral (8h)</label>
+                <input class="checkbox" type="checkbox" id="Meio-Período (4h)">
+                <label class="titulo" for="Meio-Período (4h)">Meio-Período (4h)</label>
+                <input class="checkbox" type="checkbox" id="Freelancer">
+                <label class="titulo" for="Freelancer">Freelancer</label>
                 <br>
-                <label class="titulo" for="contato">"Qual a melhor forma de entrarmos em contato com você?</label>
-                <input type="radio" name="contato" value="Telefone">
-                <input type="radio" name="contato" value="Email">
-                <input type="radio" name="contato" value="Whatsapp">
+                <label class="titulo" for="contato">Qual a melhor forma para entrarmos em contato com você?</label>
+                <br>
+                <input class="radio" type="radio" id="email" name="contato">
+                <label class="titulo" for="email">Email</label>
+                <input class="radio" type="radio" id="ligacao" name="contato">
+                <label class="titulo" for="ligacao">Ligação</label>
+                <input class="radio" type="radio" id="whatsapp" name="contato">
+                <label class="titulo" for="whatsapp">Whatsapp</label>
                 <br>
                 <label class="titulo" form="mensagem">Mensagem:</label>
-                <textarea name="mensagem" id="mensagem" cols="30" rows="10">Conteúdo</textarea>
+                <textarea class="campo-mensagem" name="mensagem" id="mensagem" cols="80" rows="10"></textarea>
                 <br>
                 <label class="titulo">Currículo:</label>
-                <input type="file" name="avatar" accpeted="jpg">
+                <input class="curriculo" type="file" name="avatar" accpeted="jpg">
                 <br>
                 <button class="botão" type="submit">Enviar</button>
             </form>
         </div>
         <div class="texto">
+            <h1>Sobre a empresa</h1>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                 dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                ex ea commodo consequat.
+                <br>
+                <br>
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
                 fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
                 deserunt mollit anim id est laborum.
+                <br>
+                <br>
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
                 pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-                id est laborum.
-            </p>
+                id est laborum. </p>
         </div>
     </main>
+    <footer class="footer">
+        <div class="footer-box">
+            <div class="logo-footer">
+                <img src="./imagens/logo-footer.png" alt="Logotipo footer">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.
+                </p>
+            </div>
+            <div class="listas">
+                <ul>
+                    <p>Categorias</p>
+                    <li><a href="">Sandálias</a></li>
+                    <li><a href="">Botas</a></li>
+                    <li><a href="">Tênis</a></li>
+                    <li><a href="">Oxford</a></li>
+                    <li><a href="">Coturnos</a></li>
+                </ul>
+            </div>
+            <div class="listas">
+                <p>Institucional</p>
+                <ul>
+                    <li><a href="">Sobre nós</a></li>
+                    <li><a href="">Perguntas frequentes</a></li>
+                    <li><a href="">Política de privacidade</a></li>
+                    <li><a href="">Ratreamento de pedidos</a></li>
+                    <li><a href="">Trabalhe conosco</a></li>
+                    <li><a href="">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
